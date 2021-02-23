@@ -8,5 +8,23 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
   min-height: 100%;
+  background-color: cadetblue;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+div {
+  display: flex;
+  justify-content: left;
+}
+div {
+  margin-left: 5rem;
+  margin-top: 0;
+}
+button {
+  text-align: center;
 }
