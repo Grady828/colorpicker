@@ -9,22 +9,29 @@ html {
 body {
   margin: 0;
   padding: 0;
-  min-height: 100%;
-  background-color: cadetblue;
+  min-height: 98%;
+  background-color: rgb(255, 255, 255);
 }
 
 h1 {
+  -webkit-text-stroke: 1px rgb(179, 176, 176);
   text-align: center;
+  margin-top: 2rem;
   padding-bottom: 2rem;
 }
 div {
   display: flex;
-  justify-content: left;
-}
-div {
+  justify-content: center;
   margin-left: 5rem;
   margin-top: 0;
 }
-button {
-  text-align: center;
+footer {
+  display: flex;
+  justify-content: center;
+}
+label {
+  margin-right: 3rem;
+}
+main {
+  border: 5px solid rgb(108, 223, 213);
 }

@@ -35,7 +35,7 @@ export class App extends Component {
 
   render() {
     return (
-      <body>
+      <main>
         <h1
           style={{
             backgroundColor: `hsl(${this.state.Hue} , ${this.state.Saturation}% , ${this.state.Lightness}%`,
@@ -78,11 +78,12 @@ export class App extends Component {
                 value={this.state.Lightness}
               />
             </h2>
-
-            <button onClick={this.randomizer}> Randomize</button>
           </label>
         </div>
-      </body>
+        <footer>
+          <button onClick={this.randomizer}> Randomize</button>
+        </footer>
+      </main>
     )
   }
 }
